@@ -1,0 +1,37 @@
+nav{
+    margin: 0.5rem 0;
+}
+
+.logo{
+    position: relative;
+    text-align: left;
+    padding: 40px 10px;
+}
+
+header{
+    min-height: 150px;
+}
+
+aside{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+article{
+    float: left;
+    width: calc(100% - 30% - 1rem);
+    margin-left: 1rem;
+    height: 100%;
+}
+
+footer{
+    clear: both;
+    margin-top: 1rem;
+}
+
+main{
+    margin: 1rem 0;
+    height: 400px;
+    min-height: 400px;
+}

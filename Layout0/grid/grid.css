@@ -1,0 +1,21 @@
+nav{
+    margin: 0.5rem 0;
+}
+
+.logo{
+    position: relative;
+    text-align: left;
+    padding: 40px 10px;
+}
+
+header{
+    min-height: 150px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    gap: 1rem;
+    padding: 1rem 0;
+    min-height: 400px;
+}

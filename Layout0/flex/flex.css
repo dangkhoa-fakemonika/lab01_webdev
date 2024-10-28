@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    padding: 1rem 0;
+    gap: 1rem;
+    min-height: 400px;
+}
+
+.logo{
+    position: relative;
+    text-align: left;
+    padding: 40px 10px;
+}
+
+nav{
+    margin: 0.5rem 0;
+}
+
+header{
+    min-height: 150px;
+}
+
+aside{
+    flex-basis: 30%;
+}
+
+article{
+    flex-basis: 70%;
+}
+
+
+

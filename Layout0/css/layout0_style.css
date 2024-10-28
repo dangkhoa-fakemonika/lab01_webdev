@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.container{
+    background-color: lightgrey;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo,
+header,
+aside,
+article,
+nav,
+footer{
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+
