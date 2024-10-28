@@ -1,0 +1,36 @@
+main{
+  padding: 1rem 0;
+  overflow: auto;
+}
+
+.box-grid-container{
+  float: left;
+  overflow: auto;
+  width: 100%;
+  left: 1rem;
+  bottom: 1rem;
+}
+
+.grid-box {
+  margin: 1rem;
+  float: left;
+  width: calc((100% - 8rem)/4);
+  box-sizing: border-box;
+}
+
+.box-container{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  left: 1rem;
+  bottom: 1rem;
+}
+
+.box {
+  margin: 1rem;
+  float: left;
+  width: calc((100% - 6rem)/3);
+  box-sizing: border-box;
+}
+
+
