@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    width: 70%;
+}
+
+nav {
+    position: relative;
+    margin: 1rem;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav a {
+    float: right;
+    margin-right: 3rem;
+}
+
+header {
+    margin: 1rem;
+}
+
+.intro-text {
+    margin: 1rem;
+}
+
+.box-container {
+    margin: 1rem;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+}
+
+.box {
+    box-sizing: border-box;
+    float: left;
+    margin-right: 1rem;
+    width: calc((100% - 4rem) / 3);
+    position: relative;
+}
+
+footer {
+    margin: 1rem;
+    clear: both;
+}

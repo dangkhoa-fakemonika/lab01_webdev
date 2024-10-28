@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+header, footer, .intro-text {
+    padding: 1rem;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+}
+
+nav {
+    padding: 1rem;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.box {
+    padding: 1rem;
+    background-color: lightgray;
+    border: 1px solid, black;
+    text-align: center;
+    height: 15rem;
+}
