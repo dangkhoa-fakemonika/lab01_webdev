@@ -21,11 +21,12 @@ nav {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: space-between;
+  width: 100%;
 }
 
 .grid-box {
   display: flex;
-  width: calc((100% - 12rem)/4);
+  width: calc((100% - 12rem - 8px)/4);
 }
 
 .box-container {
@@ -37,6 +38,6 @@ nav {
 
 .box {
   display: flex;
-  width: calc((100% - 9rem)/3);
+  width: calc((100% - 9rem - 6px)/3);
 }
 

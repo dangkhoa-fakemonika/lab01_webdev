@@ -27,13 +27,13 @@ header {
 div.grid-box {
   background-color: lightyellow;
   padding: 1rem;
-  min-height: 5rem;
+  height: 10rem;
   border: 1px solid black;
 }
 div.box {
   background-color: lightblue;
   padding: 1rem;
-  min-height: 7rem;
+  height: 12rem;
   border: 1px solid black;
   text-align: center;
   justify-content: center;
