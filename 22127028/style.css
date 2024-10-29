@@ -15,7 +15,7 @@ header, footer, .intro-text {
     border: 1px solid black;
 }
 
-nav {
+.nav-bar {
     padding: 1rem;
     background-color: lightgray;
     border: 1px solid black;

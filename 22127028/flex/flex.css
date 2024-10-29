@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.nav-bar {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar nav {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    margin: 1rem;
+}
+
+.intro-text {
+    margin: 1rem;
+}
+
+.box-container {
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.box {
+    flex-basis: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin: 1rem;
+}

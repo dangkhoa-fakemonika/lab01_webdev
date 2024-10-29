@@ -3,18 +3,22 @@ body {
     width: 70%;
 }
 
-nav {
-    position: relative;
+.nav-bar {
+    overflow: auto;
     margin: 1rem;
 }
 
-nav .logo {
+.nav-bar .logo {
     float: left;
 }
 
-nav a {
+.nav-bar nav {
+    margin-top: 25px;
     float: right;
-    margin-right: 3rem;
+}
+
+.nav-bar nav a {
+    margin-left: 2rem;
 }
 
 header {
@@ -28,19 +32,16 @@ header {
 .box-container {
     margin: 1rem;
     width: 100%;
-    position: relative;
     overflow: auto;
 }
 
 .box {
-    box-sizing: border-box;
     float: left;
+    box-sizing: border-box;
     margin-right: 1rem;
     width: calc((100% - 4rem) / 3);
-    position: relative;
 }
 
 footer {
     margin: 1rem;
-    clear: both;
 }

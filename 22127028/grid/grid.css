@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.nav-bar {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.nav-bar nav {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 2rem;
+   align-self: center;
+}
+
+header {
+    margin: 1rem;
+}
+
+.intro-text {
+    margin: 1rem;
+}
+
+.box-container {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+footer {
+    margin: 1rem;
+}
