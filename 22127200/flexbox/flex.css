@@ -4,6 +4,16 @@ main {
   padding: 1rem 0;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  width: 100%;
 }
 
 .box-grid-container {

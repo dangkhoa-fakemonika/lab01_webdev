@@ -1,20 +1,28 @@
 main {
   display: grid;
-  grid-template-rows: 4fr 2fr;
-  gap: 1rem;
+  grid-template-rows: 5fr 2fr;
   padding: 1rem 0;
+  overflow: visible;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 .box-grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  align-self: end;
+  align-self: center;
+  justify-content: center;
 }
+
 
 .box-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  align-self: end;
+  align-self: center;
+  justify-content: center;
 }
